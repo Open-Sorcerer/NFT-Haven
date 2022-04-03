@@ -29,7 +29,7 @@ export default function QuickStart() {
         style={{ marginTop: "10px", ...styles.card }}
         title={
           <>
-            📡 <Text strong> Open Sorceror </Text>
+            📡 <Text strong> Open Sorcerer </Text>
           </>
         }
       >
