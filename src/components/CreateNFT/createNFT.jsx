@@ -104,6 +104,9 @@ function CreateNFT() {
       onError: (error) => message.error(error),
     });
     setIsPending(0);
+    setNftName("");
+    setNftDescription("");
+    document.getElementById("nftImage").value = null;
     // const nft = await createNFT(metadataHash).then((res) => {
     //   console.log(res);
     //   return res;
